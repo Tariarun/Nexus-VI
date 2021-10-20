@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using PixelCrushers.DialogueSystem; 
 using UnityEngine;
 
 public class GameplayManager : MonoBehaviour
@@ -23,11 +24,13 @@ public class GameplayManager : MonoBehaviour
 
     void Start()
     {
-        
+        DialogueLua.SetVariable("Test", 2);
     }
 
     void Update()
     {
+        Debug.Log(DialogueLua.GetVariable("Test").AsInt);
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused)

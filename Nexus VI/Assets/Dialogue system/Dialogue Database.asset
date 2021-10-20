@@ -96,6 +96,20 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: 
+  - id: 2
+    fields:
+    - title: Name
+      value: Test
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: 0
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
   conversations:
   - id: 1
     fields:
@@ -247,7 +261,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 344.77267
+        x: 347.60284
         y: 181.36359
         width: 160
         height: 30
@@ -290,7 +304,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: Variable["Test"] = Variable["Test"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -301,8 +315,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 12.812823}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 7.6387534, y: 10.425985}
+    canvasZoom: 1.06
   syncInfo:
     syncActors: 0
     syncItems: 0
