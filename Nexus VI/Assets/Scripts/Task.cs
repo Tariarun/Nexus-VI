@@ -6,12 +6,26 @@ using TMPro;
 
 public class Task : MonoBehaviour
 {
+    public static Task instance;
+
     [HideInInspector] public bool isWorking = false;
     [HideInInspector] public float gaugeValue, addValue, goalValue;
     [HideInInspector] public string button;
     public TextMeshProUGUI buttonUI;
     public Slider gauge;
     public GameObject ui;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     public void StartTask(string input)
     {
@@ -20,7 +34,7 @@ public class Task : MonoBehaviour
         addValue = 0.1f;
 
         button = input;
-        buttonUI.text = button;
+        buttonUI.text = button.ToUpper();
         ui.SetActive(true);
         isWorking = true;
     }

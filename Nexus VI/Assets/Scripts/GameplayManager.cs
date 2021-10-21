@@ -24,12 +24,12 @@ public class GameplayManager : MonoBehaviour
 
     void Start()
     {
-        DialogueLua.SetVariable("Test", 2);
+        //DialogueLua.SetVariable("Test", 2);
     }
 
     void Update()
     {
-        Debug.Log(DialogueLua.GetVariable("Test").AsInt);
+        //Debug.Log(DialogueLua.GetVariable("Test").AsInt);
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
