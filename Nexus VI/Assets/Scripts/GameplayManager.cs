@@ -24,12 +24,12 @@ public class GameplayManager : MonoBehaviour
 
     void Start()
     {
-        DialogueLua.SetVariable("Test", 2);
+        //DialogueLua.SetVariable("Test", 2);
     }
 
     void Update()
     {
-        Debug.Log(DialogueLua.GetVariable("Test").AsInt);
+        //Debug.Log(DialogueLua.GetVariable("Test").AsInt);
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -56,5 +56,27 @@ public class GameplayManager : MonoBehaviour
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
+    }
+
+    public void EndOfGame()
+    {
+        if (DialogueLua.GetVariable("Bad answer").asInt >= 3 || DialogueLua.GetVariable("Empathy").asInt <= 5)
+        {
+            BadEnd();
+        }
+        else
+        {
+            GoodEnd();
+        }
+    }
+
+    public void GoodEnd()
+    {
+
+    }
+
+    public void BadEnd()
+    {
+
     }
 }
