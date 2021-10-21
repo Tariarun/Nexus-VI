@@ -57,4 +57,26 @@ public class GameplayManager : MonoBehaviour
         Time.timeScale = 1f;
         isPaused = false;
     }
+
+    public void EndOfGame()
+    {
+        if (DialogueLua.GetVariable("Bad answer").asInt >= 3 || DialogueLua.GetVariable("Empathy").asInt <= 5)
+        {
+            BadEnd();
+        }
+        else
+        {
+            GoodEnd();
+        }
+    }
+
+    public void GoodEnd()
+    {
+
+    }
+
+    public void BadEnd()
+    {
+
+    }
 }

@@ -192,31 +192,45 @@ MonoBehaviour:
   items: []
   locations: []
   variables:
-  - id: 1
+  - id: 2
     fields:
     - title: Name
-      value: Alert
-      type: 0
-      typeString: 
-    - title: Initial Value
-      value: 
+      value: Empathy
       type: 0
       typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: 0
+      type: 1
+      typeString: CustomFieldType_Number
     - title: Description
       value: 
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
+  - id: 3
+    fields:
+    - title: Name
+      value: Bad answer
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: 0
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
   conversations:
   - id: 1
     fields:
     - title: Title
       value: New Conversation 1
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Description
       value: 
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Actor
       value: 1
       type: 5
@@ -439,7 +453,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Hie!
+        value: Hi!
         type: 0
         typeString: 
       - title: Sequence
@@ -576,8 +590,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.8800001
+    canvasScrollPosition: {x: 25.098984, y: 20.359291}
+    canvasZoom: 0.94000006
   - id: 2
     fields:
     - title: Title
@@ -839,7 +853,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -894,7 +908,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1059,7 +1073,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1175,7 +1189,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1401,7 +1415,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1456,7 +1470,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1626,8 +1640,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 581.5791}
-    canvasZoom: 0.7600003
+    canvasScrollPosition: {x: 0, y: 285.36575}
+    canvasZoom: 0.8200003
   - id: 3
     fields:
     - title: Title
@@ -1943,7 +1957,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1998,7 +2012,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -2390,7 +2404,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -2445,7 +2459,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -2673,7 +2687,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -2729,7 +2743,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -2901,8 +2915,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 352.30026}
-    canvasZoom: 0.7900002
+    canvasScrollPosition: {x: 0, y: 497.3683}
+    canvasZoom: 0.7600002
   - id: 4
     fields:
     - title: Title
@@ -3218,7 +3232,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -3273,7 +3287,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -3664,7 +3678,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -3719,7 +3733,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4055,7 +4069,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4111,7 +4125,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4282,8 +4296,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 6.3291016, y: 582.2782}
-    canvasZoom: 0.7900002
+    canvasScrollPosition: {x: 0, y: 290.56604}
+    canvasZoom: 1.06
   - id: 5
     fields:
     - title: Title
@@ -4599,7 +4613,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4654,7 +4668,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -5100,7 +5114,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -5155,13 +5169,13 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 176
+        x: 177.13637
         y: 523
         width: 160
         height: 30
@@ -5487,7 +5501,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -5542,7 +5556,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -5885,8 +5899,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 112.07641}
-    canvasZoom: 0.73000026
+    canvasScrollPosition: {x: 0, y: 616.807}
+    canvasZoom: 0.88000023
   - id: 6
     fields:
     - title: Title
@@ -6202,7 +6216,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -6257,7 +6271,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -6483,7 +6497,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -6538,7 +6552,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -6930,7 +6944,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -6985,7 +6999,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -7210,7 +7224,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 330.36948}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 0.8200002
   - id: 7
     fields:
@@ -7307,8 +7321,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 270
-        y: 16
+        x: 120
+        y: 20
         width: 160
         height: 30
     - id: 1
@@ -7363,8 +7377,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 270
-        y: 66
+        x: 120
+        y: 70
         width: 160
         height: 30
     - id: 2
@@ -7420,8 +7434,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 270
-        y: 116
+        x: 120
+        y: 120
         width: 160
         height: 30
     - id: 3
@@ -7476,8 +7490,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 270
-        y: 166
+        x: 120
+        y: 170
         width: 160
         height: 30
     - id: 4
@@ -7531,8 +7545,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 270
-        y: 215
+        x: 120
+        y: 220
         width: 160
         height: 30
     - id: 5
@@ -7593,8 +7607,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 270
-        y: 265
+        x: 120
+        y: 270
         width: 160
         height: 30
     - id: 6
@@ -7648,8 +7662,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 173
-        y: 348
+        x: 30
+        y: 320
         width: 160
         height: 30
     - id: 7
@@ -7697,14 +7711,14 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Bad_answer"] = Variable["Bad_answer"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 357
-        y: 347
+        x: 210
+        y: 320
         width: 160
         height: 30
     - id: 8
@@ -7765,8 +7779,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 260
-        y: 443
+        x: 120
+        y: 370
         width: 160
         height: 30
     - id: 9
@@ -7814,14 +7828,14 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Bad_answer"] = Variable["Bad_answer"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 354
-        y: 523
+        x: 30
+        y: 420
         width: 160
         height: 30
     - id: 10
@@ -7875,8 +7889,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 173
-        y: 523
+        x: 210
+        y: 420
         width: 160
         height: 30
     - id: 11
@@ -7936,8 +7950,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 261
-        y: 608
+        x: 120
+        y: 470
         width: 160
         height: 30
     - id: 12
@@ -7986,14 +8000,14 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Bad_answer"] = Variable["Bad_answer"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 366
-        y: 689
+        x: 30
+        y: 520
         width: 160
         height: 30
     - id: 13
@@ -8047,8 +8061,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 168
-        y: 690
+        x: 210
+        y: 520
         width: 160
         height: 30
     - id: 14
@@ -8109,8 +8123,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 267
-        y: 759
+        x: 120
+        y: 570
         width: 160
         height: 30
     - id: 15
@@ -8154,18 +8168,18 @@ MonoBehaviour:
       - originConversationID: 7
         originDialogueID: 15
         destinationConversationID: 7
-        destinationDialogueID: 17
+        destinationDialogueID: 19
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: Variable["Bad_answer"] = Variable["Bad_answer"] + 1
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 371
-        y: 824
+        x: 210
+        y: 620
         width: 160
         height: 30
     - id: 16
@@ -8209,7 +8223,7 @@ MonoBehaviour:
       - originConversationID: 7
         originDialogueID: 16
         destinationConversationID: 7
-        destinationDialogueID: 17
+        destinationDialogueID: 19
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -8219,8 +8233,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 195
-        y: 826
+        x: 30
+        y: 620
         width: 160
         height: 30
     - id: 17
@@ -8275,8 +8289,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 268
-        y: 916
+        x: 120
+        y: 770
         width: 160
         height: 30
     - id: 18
@@ -8309,6 +8323,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 82ac0fc2-9fd1-47c6-bbc4-bb00ccd6d7c9
+        type: 0
+        typeString: 
       conversationID: 7
       isRoot: 0
       isGroup: 0
@@ -8324,13 +8342,186 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 268
-        y: 966
+        x: 120
+        y: 820
+        width: 160
+        height: 30
+    - id: 19
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "Que pensez-vous de la nouvelle loi visant \xE0 expulser de la ville
+          toutes les personnes qui ne rapportent pas assez?"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 7
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 7
+        originDialogueID: 19
+        destinationConversationID: 7
+        destinationDialogueID: 21
+        isConnector: 0
+        priority: 2
+      - originConversationID: 7
+        originDialogueID: 19
+        destinationConversationID: 7
+        destinationDialogueID: 20
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 120
+        y: 670
+        width: 160
+        height: 30
+    - id: 20
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "Je suis un andro\xEFde, je n'ai pas \xE0 penser par moi-m\xEAme sur
+          ce genre de question."
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 7
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 7
+        originDialogueID: 20
+        destinationConversationID: 7
+        destinationDialogueID: 17
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 207.72726
+        y: 720
+        width: 160
+        height: 30
+    - id: 21
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "Mais c'est horrible! Tout le monde m\xE9rite de vivre ici."
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 7
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 7
+        originDialogueID: 21
+        destinationConversationID: 7
+        destinationDialogueID: 17
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: Variable["Bad_answer"] = Variable["Bad_answer"] + 1
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 30
+        y: 720
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 554.4925}
-    canvasZoom: 0.85000014
+    canvasScrollPosition: {x: 0, y: 572.4818}
+    canvasZoom: 1.0299995
   syncInfo:
     syncActors: 0
     syncItems: 0
