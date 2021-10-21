@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: b4185aee32683d348b755384703dc8c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6765922733944711212
+    second: tilemap_sol_bois_casse_2_0
+  - first:
+      213: -3421267911918699877
+    second: tilemap_sol_bois_casse_2_1
+  - first:
+      213: 2263344625622451577
+    second: tilemap_sol_bois_casse_2_2
+  - first:
+      213: -6103019788077058761
+    second: tilemap_sol_bois_casse_2_3
+  - first:
+      213: 3681179211604940192
+    second: tilemap_sol_bois_casse_2_4
+  - first:
+      213: 1265682272959861445
+    second: tilemap_sol_bois_casse_2_5
+  - first:
+      213: 9053396215866219834
+    second: tilemap_sol_bois_casse_2_6
+  - first:
+      213: -8246867284236308471
+    second: tilemap_sol_bois_casse_2_7
+  - first:
+      213: 1762904676616017136
+    second: tilemap_sol_bois_casse_2_8
+  - first:
+      213: 8992363885787855435
+    second: tilemap_sol_bois_casse_2_9
+  - first:
+      213: 371475964784684214
+    second: tilemap_sol_bois_casse_2_10
+  - first:
+      213: 7256165750456423336
+    second: tilemap_sol_bois_casse_2_11
+  - first:
+      213: 6967163313413226165
+    second: tilemap_sol_bois_casse_2_12
+  - first:
+      213: 7995378516228477791
+    second: tilemap_sol_bois_casse_2_13
+  - first:
+      213: 312461733351490904
+    second: tilemap_sol_bois_casse_2_14
+  - first:
+      213: -7272838828534767078
+    second: tilemap_sol_bois_casse_2_15
+  - first:
+      213: 1050682090879842383
+    second: tilemap_sol_bois_casse_2_16
+  - first:
+      213: 7529425184913958285
+    second: tilemap_sol_bois_casse_2_17
+  - first:
+      213: -4130892530927851412
+    second: tilemap_sol_bois_casse_2_18
+  - first:
+      213: -761562281461131608
+    second: tilemap_sol_bois_casse_2_19
+  - first:
+      213: 6768044573151302318
+    second: tilemap_sol_bois_casse_2_20
+  - first:
+      213: -6700826219830799349
+    second: tilemap_sol_bois_casse_2_21
+  - first:
+      213: 2075841333164762157
+    second: tilemap_sol_bois_casse_2_22
+  - first:
+      213: -8521435643816815930
+    second: tilemap_sol_bois_casse_2_23
+  - first:
+      213: -2202088345863469149
+    second: tilemap_sol_bois_casse_2_24
+  - first:
+      213: -7508316797537102081
+    second: tilemap_sol_bois_casse_2_25
+  - first:
+      213: 8615592286005925823
+    second: tilemap_sol_bois_casse_2_26
+  - first:
+      213: -6184568336049825837
+    second: tilemap_sol_bois_casse_2_27
+  - first:
+      213: -1777847964180096676
+    second: tilemap_sol_bois_casse_2_28
+  - first:
+      213: -2649610699616221873
+    second: tilemap_sol_bois_casse_2_29
+  - first:
+      213: 140427858606241107
+    second: tilemap_sol_bois_casse_2_30
+  - first:
+      213: -2460573705348909695
+    second: tilemap_sol_bois_casse_2_31
+  - first:
+      213: -6364375767971451775
+    second: tilemap_sol_bois_casse_2_32
+  - first:
+      213: -6405539000059831211
+    second: tilemap_sol_bois_casse_2_33
+  - first:
+      213: 1736868007095081478
+    second: tilemap_sol_bois_casse_2_34
+  - first:
+      213: -2933062348173594227
+    second: tilemap_sol_bois_casse_2_35
+  - first:
+      213: -2112303855739065676
+    second: tilemap_sol_bois_casse_2_36
+  - first:
+      213: -7971569184177316181
+    second: tilemap_sol_bois_casse_2_37
+  - first:
+      213: -1918491808960425557
+    second: tilemap_sol_bois_casse_2_38
+  - first:
+      213: 8793826520928965218
+    second: tilemap_sol_bois_casse_2_39
+  - first:
+      213: 4154165478821681150
+    second: tilemap_sol_bois_casse_2_40
+  - first:
+      213: -2704243523158527643
+    second: tilemap_sol_bois_casse_2_41
+  - first:
+      213: 968877047047645839
+    second: tilemap_sol_bois_casse_2_42
+  - first:
+      213: 3329756625164448776
+    second: tilemap_sol_bois_casse_2_43
+  - first:
+      213: 1328924109342652716
+    second: tilemap_sol_bois_casse_2_44
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 192
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tilemap_sol_bois_casse_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d75c71fe1d9a12a0800000000000000
+      internalID: -6765922733944711212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_sol_bois_casse_2_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ab4a4f5f63580d0800000000000000
+      internalID: -3421267911918699877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_sol_bois_casse_2_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975048ef1f3096f10800000000000000
+      internalID: 2263344625622451577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_sol_bois_casse_2_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735bc7286d7bd4ba0800000000000000
+      internalID: -6103019788077058761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_sol_bois_casse_2_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5d34e3dfc261330800000000000000
+      internalID: 3681179211604940192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_sol_bois_casse_2_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c21846425b909110800000000000000
+      internalID: 1265682272959861445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_sol_bois_casse_2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d529134ef14ad70800000000000000
+      internalID: 9053396215866219834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_sol_bois_casse_2_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900fd4516ed3d8d80800000000000000
+      internalID: -8246867284236308471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_sol_bois_casse_2_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4929e8678177810800000000000000
+      internalID: 1762904676616017136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
