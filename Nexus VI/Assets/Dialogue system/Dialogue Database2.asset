@@ -853,7 +853,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] + 1;
+
+        ShoWLouisHappy()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -908,7 +910,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] - 1;
+
+        ShoWLouisSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1073,7 +1077,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] - 1
+
+        ShoWLouisSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1189,7 +1195,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] + 1
+
+        ShoWLouisHappy()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1415,13 +1423,15 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] + 1
+
+        ShoWLouisHappy()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 213.86475
+        x: 212.7284
         y: 802.4736
         width: 160
         height: 30
@@ -1470,7 +1480,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] - 1
+
+        ShoWLouisSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1640,8 +1652,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 68, y: 240.99995}
-    canvasZoom: 1.0000001
+    canvasScrollPosition: {x: 0, y: 588.63293}
+    canvasZoom: 0.88000023
   - id: 3
     fields:
     - title: Title

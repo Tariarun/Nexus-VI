@@ -17,7 +17,10 @@ public class CharacterManager : MonoBehaviour
 
         float translationLeftRight = Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime;
 
-        transform.Translate (translationLeftRight, translationUpDown, 0);
+        transform.Translate (translationLeftRight, 0, translationUpDown);
+        transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+
+        //Debug.Log(translationUpDown + "/" + translationLeftRight);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
