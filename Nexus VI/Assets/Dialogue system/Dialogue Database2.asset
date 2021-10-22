@@ -736,7 +736,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: ShoWLouisHappy()
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -918,7 +918,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 467.7142
+        x: 472.25967
         y: 311.99997
         width: 160
         height: 30
@@ -1652,8 +1652,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 588.63293}
-    canvasZoom: 0.88000023
+    canvasScrollPosition: {x: 0, y: 130.37973}
+    canvasZoom: 0.7900003
   - id: 3
     fields:
     - title: Title
@@ -1798,7 +1798,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: ShoWIxieHappy()
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1969,7 +1969,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] - 1;
+
+        ShoWIxieSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -2024,7 +2026,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] + 1
+
+        ShoWIxieHappy()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -2416,7 +2420,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] - 1
+
+        ShoWIxieSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -2471,7 +2477,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] + 1
+
+        ShoWIxieHappy()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -2699,7 +2707,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] - 1
+
+        ShoWIxieSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -2755,7 +2765,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] + 1
+
+        ShoWIxieHappy()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -2927,7 +2939,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 497.3683}
+    canvasScrollPosition: {x: 7.8947754, y: 480.26306}
     canvasZoom: 0.7600002
   - id: 4
     fields:
@@ -3073,7 +3085,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: ShoWUhoHappy()
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -3244,7 +3256,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] - 1;
+
+        ShoWUhoSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -3299,7 +3313,10 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
+      userScript: 'ShoWUhoHappy()
+
+        Variable["Empathy"] = Variable["Empathy"]
+        + 1'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -3690,14 +3707,16 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] - 1
+
+        ShoWUhoSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
         x: 382.52603
-        y: 525.6691
+        y: 524.5327
         width: 160
         height: 30
     - id: 13
@@ -3745,7 +3764,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] + 1
+
+        ShoWUhoHappy()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4081,7 +4102,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] + 1
+
+        ShoWUhoHappy()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4137,7 +4160,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] - 1
+
+        ShoWUhoSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4308,8 +4333,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1.06
+    canvasScrollPosition: {x: 2.272705, y: 598.1426}
+    canvasZoom: 0.8800001
   - id: 5
     fields:
     - title: Title
@@ -4454,7 +4479,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: ShoWValerieHappy()
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4625,7 +4650,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] - 1;
+
+        ShoWValerieSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4680,7 +4707,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] + 1
+
+        ShoWValerieHappy()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -5126,7 +5155,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] - 1
+
+        ShoWValerieSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -5181,7 +5212,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] + 1
+
+        ShoWValerieHappy()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -5513,7 +5546,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] - 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] - 1
+
+        ShoWValerieSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -5568,7 +5603,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Empathy"] = Variable["Empathy"] + 1
+      userScript: 'Variable["Empathy"] = Variable["Empathy"] + 1
+
+        ShoWValerieHappy()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -5911,8 +5948,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 616.807}
-    canvasZoom: 0.88000023
+    canvasScrollPosition: {x: 0, y: 588.23517}
+    canvasZoom: 0.85000026
   - id: 6
     fields:
     - title: Title
@@ -7383,13 +7420,13 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: ShoWDuncanHappy()
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
+        x: 120.97089
         y: 70
         width: 160
         height: 30
@@ -7668,7 +7705,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: ShoWDuncanHappy()
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -7723,7 +7760,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Bad_answer"] = Variable["Bad_answer"] + 1
+      userScript: 'Variable["Bad_answer"] = Variable["Bad_answer"] + 1;
+
+        ShoWDuncanSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -7840,7 +7879,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Bad_answer"] = Variable["Bad_answer"] + 1
+      userScript: 'Variable["Bad_answer"] = Variable["Bad_answer"] + 1
+
+        ShoWDuncanSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -7895,7 +7936,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: ShoWDuncanHappy()
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -8012,7 +8053,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Bad_answer"] = Variable["Bad_answer"] + 1
+      userScript: 'Variable["Bad_answer"] = Variable["Bad_answer"] + 1
+
+        ShoWDuncanSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -8067,7 +8110,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: ShoWDuncanHappy()
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -8184,7 +8227,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Bad_answer"] = Variable["Bad_answer"] + 1
+      userScript: 'Variable["Bad_answer"] = Variable["Bad_answer"] + 1
+
+        ShoWDuncanSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -8239,7 +8284,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: ShoWDuncanHappy()
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -8466,7 +8511,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: ShoWDuncanHappy()
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -8521,7 +8566,9 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: Variable["Bad_answer"] = Variable["Bad_answer"] + 1
+      userScript: 'Variable["Bad_answer"] = Variable["Bad_answer"] + 1
+
+        ShoWDuncanSad()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -8532,8 +8579,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 572.4818}
-    canvasZoom: 1.0299995
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.84999967
   syncInfo:
     syncActors: 0
     syncItems: 0
