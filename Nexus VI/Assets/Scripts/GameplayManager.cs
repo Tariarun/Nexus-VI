@@ -11,7 +11,7 @@ public class GameplayManager : MonoBehaviour
     public GameObject pauseMenu;
     public static bool isPaused;
 
-    public GameObject louisHappy, louisSad, ixieHappy, ixieSad, uhoHappy, uhoSad, valerieHappy, valerieSad, kolaboHappy, kolaboSad, duncanHappy, duncanSad;
+    public GameObject louisHappy, louisSad, ixieHappy, ixieSad, uhoHappy, uhoSad, valerieHappy, valerieSad, kolaboHappy, kolaboSad, duncanHappy, duncanSad, goodEnd, badEnd;
 
     private void Awake()
     {
@@ -32,7 +32,7 @@ public class GameplayManager : MonoBehaviour
 
     void Update()
     {
-        //Debug.Log(DialogueLua.GetVariable("Test").AsInt);
+        Debug.Log(DialogueLua.GetVariable("Bad answer").AsInt);
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -63,7 +63,8 @@ public class GameplayManager : MonoBehaviour
 
     public void EndOfGame()
     {
-        if (DialogueLua.GetVariable("Bad answer").asInt >= 3 || DialogueLua.GetVariable("Empathy").asInt <= 5)
+        Debug.Log("End");
+        if (DialogueLua.GetVariable("Bad answer").asInt >= 3)
         {
             BadEnd();
         }
@@ -75,12 +76,12 @@ public class GameplayManager : MonoBehaviour
 
     public void GoodEnd()
     {
-
+        goodEnd.SetActive(true);
     }
 
     public void BadEnd()
     {
-
+        badEnd.SetActive(false);
     }
 
     #region Character UI
@@ -177,9 +178,11 @@ public class GameplayManager : MonoBehaviour
         Lua.RegisterFunction("ShoWKolaboSad", this, SymbolExtensions.GetMethodInfo(() => ShoWKolaboSad()));
         Lua.RegisterFunction("ShoWDuncanHappy", this, SymbolExtensions.GetMethodInfo(() => ShoWDuncanHappy()));
         Lua.RegisterFunction("ShoWDuncanSad", this, SymbolExtensions.GetMethodInfo(() => ShoWDuncanSad()));
+        Lua.RegisterFunction("HideEveryone", this, SymbolExtensions.GetMethodInfo(() => HideEveryone()));
+        Lua.RegisterFunction("EndOfGame", this, SymbolExtensions.GetMethodInfo(() => EndOfGame()));
     }
 
-    void OnDisable()
+    /*void OnDisable()
     {
         Lua.RegisterFunction("ShoWLouisHappy", this, SymbolExtensions.GetMethodInfo(() => ShoWLouisHappy()));
         Lua.RegisterFunction("ShoWLouisSad", this, SymbolExtensions.GetMethodInfo(() => ShoWLouisSad()));
@@ -193,6 +196,7 @@ public class GameplayManager : MonoBehaviour
         Lua.RegisterFunction("ShoWKolaboSad", this, SymbolExtensions.GetMethodInfo(() => ShoWKolaboSad()));
         Lua.RegisterFunction("ShoWDuncanHappy", this, SymbolExtensions.GetMethodInfo(() => ShoWDuncanHappy()));
         Lua.RegisterFunction("ShoWDuncanSad", this, SymbolExtensions.GetMethodInfo(() => ShoWDuncanSad()));
-    }
+        Lua.RegisterFunction("HideEveryone", this, SymbolExtensions.GetMethodInfo(() => HideEveryone()));
+    }*/
     #endregion
 }

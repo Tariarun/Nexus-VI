@@ -50,3 +50,9 @@ MonoBehaviour:
   - functionName: ShoWDuncanSad
     parameters: 
     returnValue: 0
+  - functionName: HideEveryone
+    parameters: 
+    returnValue: 0
+  - functionName: EndOfGame
+    parameters: 
+    returnValue: 0

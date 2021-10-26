@@ -54,8 +54,8 @@ public class IntroManager : MonoBehaviour
     {
         StartCoroutine(Book());
     }
-    public void OnClick_Level1()
+    public void OnClick_Level2()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 }

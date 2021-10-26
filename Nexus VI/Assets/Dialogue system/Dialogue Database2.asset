@@ -170,7 +170,7 @@ MonoBehaviour:
   - id: 7
     fields:
     - title: Name
-      value: Ducan Mac Crowley
+      value: Ducan
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -216,6 +216,62 @@ MonoBehaviour:
       value: 0
       type: 1
       typeString: CustomFieldType_Number
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 4
+    fields:
+    - title: Name
+      value: Louis
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 5
+    fields:
+    - title: Name
+      value: Ixie
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 6
+    fields:
+    - title: Name
+      value: Uho
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 7
+    fields:
+    - title: Name
+      value: Valerie
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
     - title: Description
       value: 
       type: 0
@@ -680,7 +736,7 @@ MonoBehaviour:
         destinationDialogueID: 1
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["Louis"] == false
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -735,7 +791,7 @@ MonoBehaviour:
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["Louis"] == false
       userScript: ShoWLouisHappy()
       onExecute:
         m_PersistentCalls:
@@ -1641,7 +1697,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: 'HideEveryone();
+
+        Variable["Louis"] = true'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1652,8 +1710,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 130.37973}
-    canvasZoom: 0.7900003
+    canvasScrollPosition: {x: 22.352905, y: 2.3529358}
+    canvasZoom: 0.85000026
   - id: 3
     fields:
     - title: Title
@@ -1742,7 +1800,7 @@ MonoBehaviour:
         destinationDialogueID: 1
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["Ixie"] == false
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -1797,7 +1855,7 @@ MonoBehaviour:
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["Ixie"] == false
       userScript: ShoWIxieHappy()
       onExecute:
         m_PersistentCalls:
@@ -2928,18 +2986,20 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: 'HideEveryone();
+
+        Variable["Ixie"] = true'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 348.2157
-        y: 932.2113
+        x: 344.26834
+        y: 933.5271
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 7.8947754, y: 480.26306}
+    canvasScrollPosition: {x: 1.3157349, y: 0}
     canvasZoom: 0.7600002
   - id: 4
     fields:
@@ -3029,7 +3089,7 @@ MonoBehaviour:
         destinationDialogueID: 1
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["Uho"] == false
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -3084,7 +3144,7 @@ MonoBehaviour:
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["Uho"] == false
       userScript: ShoWUhoHappy()
       onExecute:
         m_PersistentCalls:
@@ -4322,7 +4382,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: 'HideEveryone();
+
+        Variable["Uho"] = true'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4333,7 +4395,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 2.272705, y: 598.1426}
+    canvasScrollPosition: {x: 0, y: 12.915451}
     canvasZoom: 0.8800001
   - id: 5
     fields:
@@ -4423,7 +4485,7 @@ MonoBehaviour:
         destinationDialogueID: 1
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["Valerie"] == true
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -4478,7 +4540,7 @@ MonoBehaviour:
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["Valerie"] == false
       userScript: ShoWValerieHappy()
       onExecute:
         m_PersistentCalls:
@@ -5820,7 +5882,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: 'HideEveryone();
+
+        Variable["Valerie"] = true'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -5948,8 +6012,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 588.23517}
-    canvasZoom: 0.85000026
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.76000035
   - id: 6
     fields:
     - title: Title
@@ -7354,7 +7418,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: Block
+      falseConditionAction: Passthrough
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 7
@@ -7363,15 +7427,22 @@ MonoBehaviour:
         destinationDialogueID: 1
         isConnector: 0
         priority: 2
-      conditionsString: 
+      - originConversationID: 7
+        originDialogueID: 0
+        destinationConversationID: 7
+        destinationDialogueID: 22
+        isConnector: 0
+        priority: 2
+      conditionsString: Variable["Louis"] == true and (Variable["Ixie"] == true)
+        and (Variable["Uho"] == true) and (Variable["Valerie"] == true)
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 20
+        x: 269.4506
+        y: 14.505493
         width: 160
         height: 30
     - id: 1
@@ -7419,7 +7490,8 @@ MonoBehaviour:
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["Louis"] == true and (Variable["Ixie"] == true)
+        and (Variable["Uho"] == true) and (Variable["Valerie"] == true)
       userScript: ShoWDuncanHappy()
       onExecute:
         m_PersistentCalls:
@@ -8393,14 +8465,16 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: 'HideEveryone()
+
+        EndOfGame()'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 820
+        x: 118.96907
+        y: 818.9691
         width: 160
         height: 30
     - id: 19
@@ -8578,9 +8652,59 @@ MonoBehaviour:
         y: 720
         width: 160
         height: 30
+    - id: 22
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "Vas parler \xE0 tout le monde."
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 7
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: Variable["Louis"] == false or (Variable["Ixie"] == false)
+        or (Variable["Uho"] == false) or (Variable["Valerie"] == false)
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 407.59497
+        y: 78.93849
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.84999967
+    canvasScrollPosition: {x: 0, y: 538.16095}
+    canvasZoom: 1.0599995
   syncInfo:
     syncActors: 0
     syncItems: 0
